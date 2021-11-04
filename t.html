@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC Tac Toe</title>
+</head>
+<body>
+    <link rel='stylesheet' href='t.css'>
+    <script src='t.js'></script>
+           <center>
+    <p id="head">Tic Tac Toe</p>
+    </center>
+    <p id="note">It's X turn </p>
+    <p id="commutator"> </p>
+    
+    <input type='text' id='a' onclick='mya()' >
+    <input type='text' id='b' onclick="myb()" >
+    <input type='text' id='c' onclick='myc()' >
+                                       <br>
+    <input type='text' id='d' onclick="myd()" >
+    <input type='text' id='e' onclick='mye()' >
+    <input type='text' id='f' onclick="myf()" >
+                                      <br>
+    <input type='text' id='g' onclick='myg()' >
+    <input type='text' id='h' onclick="myh()" >
+    <input type='text' id='i' onclick='myi()' >
+                                       <br>
+
+
+<script> 
+                                        let     play = 0;
+
+                                            function mya(){
+                                    if(play==0){
+                                        var a = document.getElementById('a').value='X';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                   var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+
+                                
+
+
+                                        
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('a').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+
+
+play=0;
+                                    }
+
+                                }
+
+
+                                function myb(){
+                                    if(play==0){
+                                         document.getElementById('b').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+
+
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('b').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+
+
+play=0;
+                                    }
+
+                                }
+
+
+                                function myc(){
+                                    if(play==0){
+                                         document.getElementById('c').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+
+
+
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('c').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+
+
+play=0;
+                                    }
+
+                                }
+
+
+                                function myd(){
+                                    if(play==0){
+                                         document.getElementById('d').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+                                         
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('d').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=0;
+                                    }
+
+                                }
+
+
+                                function mye(){
+                                    if(play==0){
+                                         document.getElementById('e').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('e').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=0;
+                                    }
+
+                                }
+
+
+                                function myf(){
+                                    if(play==0){
+                                         document.getElementById('f').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('f').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=0;
+                                    }
+
+                                }
+
+
+                                function myg(){
+                                    if(play==0){
+                                         document.getElementById('g').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('g').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=0;
+                                    }
+
+                                }
+
+
+                                function myh(){
+                                    if(play==0){
+                                         document.getElementById('h').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('h').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=0;
+                                    }
+
+                                }
+
+                                function myi(){
+                                    
+                                    if(play==0){
+                                         document.getElementById('i').value='X';
+                                         var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                         var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='O turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=1;
+                                    }
+
+                                    else{
+                                     document.getElementById('i').value='O';
+                                     var note =    document.getElementById('note');
+                                     note.style.fontSize='0px';
+                                     var a_a =     document.getElementById('commutator');
+                                   a_a.innerHTML='X turn';
+                                   a_a.style.color='red';
+                                   a_a.style.fontSize="30px";
+play=0;
+                                    }
+
+                                }
+
+
+                            
+
+
+
+
+
+</script>
+</body>
+</html>
